@@ -1,0 +1,91 @@
+---
+title: "GFC Yale, Module 4"
+author: "Joe Nguyen"
+date: "20 December 2015"
+output: html_document
+---
+
+```{r, echo=FALSE}
+rm(list = ls())
+
+# Change working directory
+dirBase <- "/home/joe/Documents/01-coursera/02-finance"
+dirWorking <- "/02a-GFC-yale"
+setwd(paste0(dirBase, dirWorking))
+
+# Generic finance functions
+source(paste0(dirBase, "/01-tvm/r-code/func_finance.R"))
+```
+
+## Quiz 1 -- Shadow Banking
+
+### Question 1
+Which of the following is a form of runnable debt?
+
+**Demand deposits** Demand deposits are runnable.
+
+
+### Question 2
+What does a depositor receive in exchange for depositing cash in a demand deposit?
+
+**Insurance** In the US, for example, the depositor receives insurance from the FDIC up to a deposit threshold.
+
+
+## Quiz 2 -- Safe Assets
+
+### Question 1
+What is the key feature of a *safe asset*?
+
+**Information Insensitive** There is no incentive to produce information about a *safe asset*.
+
+
+### Question 2
+Which of the following can be *safe assets*?
+
+1. **Government bonds**
+2. **Currency**
+
+Not:
+
+- High yield bonds
+- Stocks
+
+These instruments are highly information senstive, so they are not safe assets.
+
+
+## Quiz 3 -- The Global Savings Glut (GSG) Hypothesis
+
+### Question 1
+Increased demand for a bond does what?
+
+1. **Decrease Yield (interest rate)**
+2. **Increase price**
+
+Increased demand for a good increases its price. The inverse of a bond's price is its yield - so as a bond's price increases, its yield falls.
+
+### Question 2
+What was the *conundrum* of the early 2000s described by Ben Bernanke?
+
+**Short-term interest rates rose while long-term rates stayed the same**
+
+Short-term rates in the U.S. increased, which would normally also increase the long-term rates. But that didn't happen: ten-year rates stayed about the same. Since mortgage rates tracked long-term (treasury bond) rates, mortgage rates remained low and enticed investors to buy into the housing market, leading to the housing bubble.
+
+
+## Quiz 4 -- The Global Savings Glut (GSG): Data
+
+### Question 1
+What is agency debt?
+
+**Debt issued by Government Sponsored Enterprises (“GSE”) like Fannie Mae**
+
+
+### Question 2
+Which country/region contributed most to the Global Savings Glut by purchasing safe US debt?
+
+**China** China was the largest purchaser of safe US debt with some $700 billion in acquisitions of US Treasury securities and agency debt between 2003 and 2007.
+
+
+
+
+
+
