@@ -20,8 +20,7 @@ source(paste0(dirBase, "/01-tvm/r-code/func_finance.R"))
 ## Quiz 1 -- Shadow Banking
 
 ### Question 1
-Which of the following is a form of runnable debt?
-
+Which of the following is a form of runnable debt?  
 **Demand deposits** Demand deposits are runnable.
 
 
@@ -64,8 +63,7 @@ Increased demand for a bond does what?
 Increased demand for a good increases its price. The inverse of a bond's price is its yield - so as a bond's price increases, its yield falls.
 
 ### Question 2
-What was the *conundrum* of the early 2000s described by Ben Bernanke?
-
+What was the *conundrum* of the early 2000s described by Ben Bernanke?  
 **Short-term interest rates rose while long-term rates stayed the same**
 
 Short-term rates in the U.S. increased, which would normally also increase the long-term rates. But that didn't happen: ten-year rates stayed about the same. Since mortgage rates tracked long-term (treasury bond) rates, mortgage rates remained low and enticed investors to buy into the housing market, leading to the housing bubble.
@@ -74,8 +72,7 @@ Short-term rates in the U.S. increased, which would normally also increase the l
 ## Quiz 4 -- The Global Savings Glut (GSG): Data
 
 ### Question 1
-What is agency debt?
-
+What is agency debt?  
 **Debt issued by Government Sponsored Enterprises (“GSE”) like Fannie Mae**
 
 
@@ -83,6 +80,199 @@ What is agency debt?
 Which country/region contributed most to the Global Savings Glut by purchasing safe US debt?
 
 **China** China was the largest purchaser of safe US debt with some $700 billion in acquisitions of US Treasury securities and agency debt between 2003 and 2007.
+
+
+## Quiz 5 -- The Global Savings Glut (GSG): Data, Part 2
+
+### Question 1
+Which of the following were key drivers of demanded safe government and agency debt, according to the GSG?
+
+1. **OPEC**
+2. **Asia (especially China)**
+3. **Large institutional cash pools**
+
+*Retail American investors* did not drive deman for safe government and agency debt.
+
+### Question 2
+Which of the following does NOT control an institutional cash pool?  
+1. **Retail investors**
+
+The financial instruments that do:
+
+- Money market mutual fund (MMMF)
+- Sovereign wealth fund
+- Large nonfinancial corporation
+
+
+## Quiz 6 -- Safe Assets Supply
+
+### Question 1
+Institutional cash pools' demand for safe assets is predominately at what time horizon?  
+**Short-term**
+
+
+### Question 2
+The demand for safe assets increased up to the Global Financial Crisis. How was this increased demand satisfied?
+
+**AAA securities manufactured by the financial sector including *residential mortgage-backed security* (RMBS), *commerical mortgage-based security* (CMS), and other *asset-backed security* (ABS) filled the gap**
+
+NOT:
+
+- US government issued more securities
+- Institutional cash pools issued safe debt
+- Foreign, emerging market countries began issuing safe debt
+
+
+## Quiz 7 -- Manufacturing Safe Assets
+
+### Question 1
+In manufacturing safe assets, financial institutions use which of the following strategies?
+
+1. **They use only the most senior part of an asset as collateral**
+2. **They set the debt/value ratio low enough that nobody has an incentive to analyse default probabilities**
+
+These two phenomena work together to make the asset as information insensitive as possible. 
+
+### Question 2
+A large tech company has a market capitalisation of $100 billion in equity, with zero debt. Approximately what would be the credit rating of the company's first $1 million of debt?
+
+**Investment grade** This company will have overwhelming resources to repay its first $1 million of debt.
+
+
+## Quiz 8 -- Securitisation: Overview
+
+### Question 1
+Dividing a pool of assets into tranches allows the financial institution to issue bonds at different prices and yields with varying risk profiles. Characteristics of bonds secured by the senior tranche include:
+
+1. **They receive payments from the underlying assets first**
+2. **They are largely information insensitive**
+
+
+### Question 2
+What is the key to designing a securitisation vehicle?  
+**The senior tranche is information insensitive**
+
+
+## Quiz 9 -- Securitisation: Data, Part 1
+
+### Question 1
+Mortgage-backed security (MBS) issuance was dominated by what type of MBS leading up to 2003?  
+**Agency** i.e. Fannie Mae and Freddie Mac (US Government-sponsored enterprises (GSE))
+
+
+### Question 2
+MBS issuance was dominated by what type of MBS between 2003 and 2007?  
+**GSE**
+
+
+## Quiz 10 -- Securitisation: Data, Part 2
+
+### Question 1
+Which of the following is true:  
+**MBS is a type of ABS**
+
+
+### Question 2
+The portion of corporate bonds issued in a securitisation that are rated AAA is usually:  
+**2/3 to 3/4**
+
+
+------------------------
+## Module 4 Quiz
+
+
+### Question 1
+In the US, are all deposits at a bank insured?  
+**No, only deposits up to the Federal Deposit Insurance Corporation's (FDIC's) threhold limit are insured**
+
+
+### Question 2
+Roughly when was demand deposit insurance first implemented in the US?  
+**The Great Depression**
+
+
+### Question 3
+As described in the lectures, what is a main purpose of a repurchase agreement for an institutional investor with a large cash pool?  
+**To give institutional investors collateral -- and therefore some degree of insurance -- when they lend cash to a bank for a short period**
+
+
+### Question 4
+Shadow Banking is best described as:  
+**Banking that is done outside of government oversight**
+
+#### Above Incorrect, choose:  
+**Ways in which institutional investors seek to make large deposits safe since they are not insured by the goverment**
+
+#### Above Incorrect, choose:  
+**Funding that institutional investors do not have to include on their balance sheets**
+
+#### Still incorrect
+
+
+### Question 5
+Which of the following countries' bonds are NOT considered safe assets?  
+**Italy**
+
+Compared to:  
+- United Kingdom
+- Germany
+- United States
+
+
+### Question 6
+The Global Savings Glut Hypothesis explained that long term rates behaved as they did because:  
+**Cash flush foreign investors demanded safe assets in the form of US government bonds**
+
+
+### Question 7
+The US government ran a surplus in the period 1996-2002. How did this affect Treasury securities outstanding?  
+**The total amount of Treasury securities outstanding decreased**
+
+
+### Question 8
+During the period 2003-2007, foreign investors bought mostly what and domestic investors bought mostly what?  
+1. **Foreign: Treasury securities**
+2. **Domestic: agency debt / RMBS and CMBS and ABS**
+
+#### Above Incorrect, choose:  
+1. **Foreign: Treasury securities**
+2. **Domestic: agency debt / Coporate debt and equities**
+
+#### Above Incorrect, choose:  
+1. **Foreign: Treasury securities and agency debt**
+2. **Domestic: RMBS and CMBS and ABS**
+
+
+### Question 9
+In securitisation, the benefits of using a trust to hold a pool of assets include:  
+- **Taking the assets off the bank's balance sheet**
+- **Eliminating managerial/agency risk**
+
+Not:  
+- Banks can charge administrative fees
+- Reducing the cost of bankruptcy and liquidation
+
+#### Above Incorrect, include:  
+- **Reducing the cost of bankruptcy and liquidation**
+
+#### Above Incorrect, include:  
+- **Reducing the cost of bankruptcy and liquidation**
+- **Banks can charge administrative fees**
+
+#### Still incorrect
+
+
+### Question 10
+Securitisation was employed by which of the following types of firms?
+- **Commerical companies**
+- **Finance companies**
+- **Banks**
+
+
+
+
+
+
 
 
 
