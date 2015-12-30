@@ -1,5 +1,5 @@
 ---
-title: "GFC Yale, Module 4"
+title: "GFC Yale, Module 4 -- Safe Assets and Global Savings Glut (GSG)"
 author: "Joe Nguyen"
 date: "20 December 2015"
 output: html_document
@@ -206,7 +206,8 @@ Shadow Banking is best described as:
 #### Above Incorrect, choose:  
 **Funding that institutional investors do not have to include on their balance sheets**
 
-#### Still incorrect
+#### Above Incorrect, choose:  
+**Off-balance-sheet financing by banks that accommodates the needs of institutional investors**
 
 
 ### Question 5
@@ -259,7 +260,10 @@ Not:
 - **Reducing the cost of bankruptcy and liquidation**
 - **Banks can charge administrative fees**
 
-#### Still incorrect
+#### Above Incorrect, choose:  
+- **Taking the assets off the bank's balance sheet**
+- **Eliminating managerial/agency risk**
+- **Banks can charge administrative fees**
 
 
 ### Question 10
@@ -267,15 +271,4 @@ Securitisation was employed by which of the following types of firms?
 - **Commerical companies**
 - **Finance companies**
 - **Banks**
-
-
-
-
-
-
-
-
-
-
-
 

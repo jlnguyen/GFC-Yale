@@ -1,0 +1,156 @@
+---
+title: "GFC Yale, Module 5 -- The Housing Crisis"
+author: "Joe Nguyen"
+date: "30 December 2015"
+output: html_document
+---
+
+```{r, echo=FALSE}
+rm(list = ls())
+
+# Change working directory
+dirBase <- "/home/joe/Documents/01-coursera/02-finance"
+dirWorking <- "/02a-GFC-yale"
+setwd(paste0(dirBase, dirWorking))
+
+# Generic finance functions
+source(paste0(dirBase, "/01-tvm/r-code/func_finance.R"))
+```
+
+
+## Quiz 1 -- Causes of Housing Crisis
+
+### Question 1
+Which of the below describes the main hypotheses for the cause of the housing crisis?
+
+1. **Bad behaviour / moral hazard / inside job**
+2. **Government failure**
+3. **Bubble thinking**
+
+NOT:  
+Global contagion
+
+
+### Question 2
+Are the three main hypotheses mutually exclusive?  
+**No**
+
+
+## Quiz 2 -- Three Hypotheses
+
+### Question 1
+How does the "bad behaviour" hypothesis explain the mortgage supply side?  
+**Conflict ridden financial intermediaries with no skin in the game**
+
+Note: to have *skin in the game* means:  
+to have incurred monetary risk by being involved in achieving a goal.
+
+As coined by Warren Buffett:  
+a situation in which high-ranking insiders use their own money to buy stock in the company they are running.
+
+Demand from:  
+Confused / misled buyers buying mortgages that self-destructed
+
+
+### Question 2
+Under the "bubble thinking" hypothesis, what is the assumption of mortgage supply side's belief that the mortgage-based securities are "safe assets"?  
+**Housing prices can never fall by very much** -- the confidence in housing prices was an important factor of the "bubble thinking" hypothesis.
+
+
+## Quiz 3 -- Bad Behaviour, Part 1
+
+Nonprime loans performed well for many years
+
+### Question 1
+According to the study by Foote, Geradi and Willen, which kind of nonprime loans performed quite well before the financial crisis?  
+**All three:**
+
+1. **FICO < 620**
+2. **LTV = 100**
+3. **Low-doc / no-doc mortgages**
+
+
+### Question 2
+What is TRUE about mortgages with FICO score below 620 during the period after 2000, according to the study by Foote, Geradi and Willen?  
+**The failure rate for mortgages remained below 20% until 2005**
+
+
+## Quiz 4 -- Bad Behaviour, Part 2
+
+Mortgage defautls were unrelated to rate resets
+
+### Question 1
+What does the study by Foote, Geradi and Willen show regarding mortgage interest rate resets and defaults for January 2005 vintage?  
+**Mortgage defaults remained at a similar rate**
+
+
+### Question 2
+What does the study by Foote, Geradi and Willen show regarding mortgage interest rate resets and defaults for January 2007 vintage?  
+**Even though the interest rate decreased at reset, the mortgage default rate did not decrease**
+
+
+## Quiz 5 -- Bad Behaviour, Part 3
+
+Insiders (financial institutions (FI)) were slammed by the crisis
+
+### Question 1
+What is TRUE about insiders and the losses they took from the crisis?  
+**Citygroup experienced the largest loss of over $40 billion**
+
+
+### Question 2
+Which item held by the insiders highlighted that they indeed had a lot of "skin in the game" and were just as surprised about the failure?  
+**Non-Agency AAAs** are the nonprime mortgages, and investing in these showed that the insiders had a lot to lose if they were to go sour.
+
+
+## Quiz 6 -- Government Failure, Evidence, Part 1
+
+Government involvement in mortgage market began after WWII, not 2000s
+
+### Question 1
+When did the US government's significant involvement in mortgage market start?  
+**Just are WWII**
+
+
+### Question 2
+Approximately what was the highest percentage of the mortgage market guaranteed by the US goverenment through FHA and VA during 1946-67?  
+**45%**
+
+
+## Quiz 7 -- Government Failure, Evidence, Part 2
+
+Timing of activities cannot be explained by government-sponsored enterprise (GSE) policy changes
+
+### Question 1
+What was GSE's activity in the nonprime mortgage market during the period after 2000?  
+**They participated as a buyer of nonprime mortgages.** GSEs were NOT allowed to be a direct lender of nonprime mortgages.
+
+From wiki:  
+GSEs primarily act as financial intermediaries to assist lenders and borrowers in housing and agriculture. Fannie Mae and Freddie Mac, the two most prominent GSEs, purchase mortgages and package them into mortgage-backed securities (MBS), which carry the financial backing of Fannie Mae or Freddie Mac. Because of this GSE financial backing, these MBS are particularly attractive to investors and are also eligible to trade in the "to-be-announced," or "TBA" market.
+
+
+### Question 2
+Approximately, what was the GSE’s share of the subprime mortgage market in 2004?  
+**40%**
+
+
+## Quiz 8 -- Bubble Thinking, Evidence
+
+Demand side:  
+Housing as a great investment that never goes down in value
+
+Mortgage supply side:  
+Mortgage supply from cash pools and intermediaries who saw MBS as "safe assets".
+
+Long period of relative stability in the US. Why did the housing bubble take hold in 2003-2007? Housing bubbles are **always lurking**. The spark this time was the **demand for safe assets** coming from macroeconomic forces.
+
+
+### Question 1
+According to the survey on ten-year home-price expectation, in 2003 what were the homebuyers’ expectation regarding house price increase for the next ten years?  
+**The house price will increase by 12%**
+
+
+### Question 2
+What was the “meltdown” scenario for the forecasts of losses on subprime investment from Lehman Brothers?  
+**-5% for the next 3 years, 5% thereafter with a probability of 5%**
+

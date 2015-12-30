@@ -1,0 +1,69 @@
+---
+title: "GFC Yale, Module 5 -- Wrap Up Quiz"
+author: "Joe Nguyen"
+date: "30 December 2015"
+output: html_document
+---
+
+```{r, echo=FALSE}
+rm(list = ls())
+
+# Change working directory
+dirBase <- "/home/joe/Documents/01-coursera/02-finance"
+dirWorking <- "/02a-GFC-yale"
+setwd(paste0(dirBase, dirWorking))
+
+# Generic finance functions
+source(paste0(dirBase, "/01-tvm/r-code/func_finance.R"))
+```
+
+
+### Question 1
+Which of the three hypotheses has the strongest evidence in explaining the causes of the housing crisis?  
+**Bubble thinking**
+
+
+### Question 2
+How does the “bad behavior” hypothesis explain the mortgage demand side?  
+**Confused/misled buyers buying mortgages that self-destructed **
+
+
+### Question 3
+How does the “government failure” hypothesis explain the mortgage demand side?  
+**Explicit and implicit government subsidies trying to expand homeownership**
+
+
+### Question 4
+How does the “government failure” hypothesis explain the mortgage supply side?  
+**GSEs, eager to comply with affordable housing goals and to exploit government guarantees**
+
+
+### Question 5
+How does the “bubble thinking” hypothesis explain the mortgage demand side?  
+**Consumers, who view houses as a great investment that never goes down in value**
+
+
+### Question 6
+How does the “bubble thinking” hypothesis explain the mortgage supply side?  
+**Cash pools and intermediaries, who view mortgage-backed securities as “safe assets” that satisfy their increasing demand for such assets for investment and collateral**
+
+
+### Question 7
+Which of the following most accurately describes the role of subprime mortgages in the housing crisis?  
+**Subprime mortgage was the largest contributor in causing the housing crisis**
+
+#### Above incorrect, choose:  
+**Failure rate of mortgages with FICO score below 620 remained below 20% as origination was increasing during 2003-04**
+
+### Question 8
+Why is the “government failure” hypothesis not the main driver of the housing crisis?  
+**Nonprime market was actually doing well before the crisis**
+
+#### Above incorrect, choose:  
+**GSEs were not a major participant in the nonprime market**
+
+#### Above incorrect, choose:  
+**The most significant U.S. government involvement in the mortgage market started right after WWII**
+
+
+
