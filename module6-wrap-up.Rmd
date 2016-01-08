@@ -1,0 +1,67 @@
+---
+title: "GFC Yale, Module 6 -- Wrap Up Quiz"
+author: "Joe Nguyen"
+date: "8 January 2016"
+output: html_document
+---
+
+```{r, echo=FALSE}
+rm(list = ls())
+
+# Change working directory
+dirBase <- "/home/joe/Documents/01-coursera/02-finance"
+dirWorking <- "/02a-GFC-yale"
+setwd(paste0(dirBase, dirWorking))
+
+# Generic finance functions
+source(paste0(dirBase, "/01-tvm/r-code/func_finance.R"))
+```
+
+
+### Question 1
+Which of the following most accurately describes market perceptions of problems in subprime mortgages?  
+**Subprime mortgage problems were widely recognized by early 2007**
+
+
+### Question 2
+Which of the following most accurately describes the initial prevailing view of how subprime problems would affect the broader financial system?  
+**Problems in subprime would be contained before having a significant effect on the broader financial system**
+
+
+### Question 3
+What was the primary mechanism by which subprime problems were transmitted to the broader financial system?  
+
+- **Uncertainty – investors didn’t know who was exposed to subprime**
+- **Crippling losses – the extent of the problems in subprime was too large for the financial system to handle**
+
+#### Above incorrect, choose:
+- **Uncertainty – investors didn’t know who was exposed to subprime**
+
+
+### Question 4
+Based on the evidence of the financial crisis, when most investors are faced with the possibility that an asset previously viewed as safe may not be safe, they will:
+
+**Exit the asset**
+
+
+### Question 5
+Which of the following describes what takes place during a bank run?  
+- **Depositors concerned about the solvency of a bank react by seeking to withdraw their money from it**
+- **Because banks use short-term liabilities such as deposits to fund long-term assets like mortgages, banks typically would not have enough liquid assets on hand to meet a large number of withdrawal requests**
+- **Faced with the loss of short-term funding, banks are unable to fund their long-term assets**
+
+
+### Question 6
+True or false: runs can occur outside the traditional banking system?  
+**True, and runs outside the traditional banking system were a primary driver of the global financial crisis**
+
+
+### Question 7
+Which of the following most accurately describes the role asset-backed commercial paper (ABCP) played in the financial crisis?  
+**A run in ABCP resulted in banks providing liquidity support to ABCP programs during a time when liquidity was already growing scarce**
+
+
+### Question 8
+What is the primary means by which the perceived safety of various asset types such as subprime securities and ABCP can be measured over time by those seeking to study the financial crisis?  
+**The spreads on various instruments and indices such as ABX-HE and LIBOR-OIS**
+

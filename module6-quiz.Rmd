@@ -1,0 +1,170 @@
+---
+title: "GFC Yale, Module 6 -- Anxiety, Part 1"
+author: "Joe Nguyen"
+date: "8 January 2016"
+output: html_document
+---
+
+```{r, echo=FALSE}
+rm(list = ls())
+
+# Change working directory
+dirBase <- "/home/joe/Documents/01-coursera/02-finance"
+dirWorking <- "/02a-GFC-yale"
+setwd(paste0(dirBase, dirWorking))
+
+# Generic finance functions
+source(paste0(dirBase, "/01-tvm/r-code/func_finance.R"))
+```
+
+
+## Quiz 1 -- Some Notable Events in 2007
+
+### Question 1
+Which of the following events did NOT take place in 2007?  
+**The collapse of Lehman Brothers**
+
+Events that did occur:  
+
+- The bankruptcy of New Century
+- Signficant ratings downgrades to securities backed by subprime mortgages
+- The suspension of redemptions in two Bear Stearns funds
+
+### Question 2
+BNP Paribas made an announcement in August 2007 that is often cited as marking the onset of the financial crisis. What was the substance of this announcement?  
+**That it was unable to value subprime securities held in certain of its funds and would be suspending redemptions as a result**  
+
+On August 9, 2007 BNP Paribas announced that a lack of liquidity in the market for certain subprime securities made it impossible to value them and that as a result it would be suspending redemptions. 
+
+
+## Quiz 2 -- Asset-backed Index (ABX)
+
+HE: Home equity
+
+### Question 1
+What does the ABX-HE track?  
+**The cost of insuring against the risk of default of certain securities backed by subprime mortgages**
+
+The ABX-HE is an index of credit default swaps on subprime mortgage securitizations. Credit default swaps provide insurance against default. 
+
+### Question 2
+Why was there no ABX-HE after the first six months of 2007?  
+**Because subprime activity had slowed so much by mid-2007 that there was not enough to construct an index**
+
+
+## Quiz 3 -- ABX Data
+
+### Question 1
+What happened to the cost of insuring BBB subprime securities against default in early 2007?  
+**Substantial increase (~550 basis points)**
+
+The cost of insuring BBB subprime securities against default went from approximately 150 basis points to approximately 700 basis points in early 2007.
+
+### Question 2
+Which of the following statements most accurately describes the perception in the market of AAA securities backed by subprime mortgages during 2007?  
+**The cost of insuring such securities against default went from between 25 and 50 basis points in early 2007 to more than 200 basis points by late 2007**
+
+The cost of insuring AAA securities backed by subprime mortgages went from between 25 and 50 basis points in early 2007 to more than 200 basis points by late 2007.
+
+
+## Quiz 4 -- Anxiety Spreads to Interbank Markets
+
+### Question 1
+Which of the following most accurately describes the initial view of Federal Reserve Chairman Ben Bernanke on the subprime crisis as expressed in a famous speech he delivered in May 2007?  
+**That the subprime crisis was unlikely to spread to the broader housing market or the rest of the economy**
+
+### Question 2
+Which of the following factors was most responsible for the spread of anxiety from subprime to the overall financial system?  
+**People were uncertain about the location of the risk of subprime (e.g., which financial institutions had exposure to subprime assets)**
+
+Anxiety spread as people became uncertain about such things as which securitized bonds were exposed to subprime and which financial institutions would need to support their investment vehicles because of subprime losses.
+
+
+## Quiz 5 -- LIBOR-OIS
+
+LIBOR:  The London Interbank Offered Rate
+OIS:    The Overnight Index Swap
+
+### Question 1
+Which of the following most accurately describes what the LIBOR-OIS spread measures?  
+**The difference in interest rates on secured and unsecured borrowing by banks**
+
+LIBOR is a measure of interest rates on unsecured borrowing by banks and OIS is a measure of interest rates on secured borrowing by banks.
+
+### Question 2
+Historically, the LIBOR-OIS spread has been:
+**Quite small (less than 10 basis points)**
+
+
+## Quiz 6 -- LIBOR-OIS Data
+
+### Question 1
+What event caused the first significant spike in the LIBOR-OIS spread during the financial crisis?  
+**The August 2007 announcement by BNP Baribas that it was unable to value the subprime assets held in certain of its funds**
+
+The LIBOR-OIS spread first spiked from less than 10 basis points to over 50 basis points following the BNP Paribas announcement in August 2007.
+
+### Question 2
+In general, how did the spike in LIBOR-OIS spreads affect financial institutions during the crisis?  
+**It reduced their profitability by increasing the amount they had to pay on unsecured borrowings**
+
+Increasing LIBOR-OIS spreads were driven by higher interest rates banks had to pay on unsecured borrowings.
+
+
+## Quiz 7 -- Asset-Backed Commercial Paper (ABCP)
+
+### Question 1
+Which of the following statements most accurately describes the relationship between asset-backed commercial paper (ABCP) and traditional banking?  
+**Both ABCP and traditional banking involve funding long-term assets with short-term liabilities**
+
+### Question 2
+Which of the following IS NOT a difference between ABCP and securitization?  
+**AAA tranches of securitizations were perceived as safe assets, while ABCP was not** i.e. ABCP were also perceived as safe assets
+
+Differences between securitization and ABCP:
+
+- Securitization involves a fixed pool of assets, while ABCP can have a pool of assets that changes over time
+- Securitization typically involves one type of asset (e.g., mortgage debt), while ABCP often involves multiple asset types (e.g., mortgage debt, student debt, credit card debt, etc.)
+- ABCP typically involves maturity transformation, while securitization does not 
+
+
+## Quiz 8 -- ABCP Data
+
+### Question 1
+Approximately how much ABCP was outstanding at its peak in August 2007?  
+**$1.2 trillion**
+
+### Question 2
+During the period of ABCP’s initial growth in the late 1990s and early 2000s, the US government was:  
+**Issuing significantly less government debt than it had in prior periods**
+
+The US government was running surpluses in the late 1990s and early 2000s and therefore issued much less debt that could be used as safe assets.
+
+
+## Quiz 9 -- ABCP Runs, Part 1
+
+### Question 1
+According to Covitz, Liang and Suarez, which of the following indicates a run in ABCP?  
+**The issuance of no new paper by an ABCP program in a week in which at least 10% of its existing paper has come due**
+
+### Question 2
+What was the effect of ABCP runs on the traditional banking system?  
+**Many traditional banks provided liquidity support to ABCP programs that could not roll over their paper**
+
+Many traditional banks provided liquidity support to ABCP programs and were thus called upon to provide funding when the programs could not roll over their paper.
+
+
+## Quiz 10 -- ABCP Runs, Part 2
+
+### Question 1
+What happened in the ABCP market in late 2007?  
+**All of the above**
+
+- Amounts outstanding dropped significantly
+- The maturity of newly issued ABCP decreased significantly
+- The risk spreads associated with newly issued ABCP increased significantly
+
+### Question 2
+What was the average maturity of ABCP issued in late 2007?  
+**Approximately 15 days**
+
